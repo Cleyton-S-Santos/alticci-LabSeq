@@ -52,6 +52,5 @@ jobs:
       - name: Build and push Docker images
         uses: docker/build-push-action@v3
         with:
-          context: .
           push: true
           tags: creito/labseq:latest
