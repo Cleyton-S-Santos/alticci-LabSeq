@@ -7,5 +7,5 @@ RUN mvn package
 RUN mvn clean
 
 EXPOSE 8081
-COPY *.jar application.jar
+COPY target/*.jar application.jar
 ENTRYPOINT ["java", "-jar", "application.jar"]
