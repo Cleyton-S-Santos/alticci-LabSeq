@@ -1,0 +1,4 @@
+com\alticci\labseq\LabseqApplicationTests.class
+com\alticci\labseq\integrations\LabSeqIntegrationsTest.class
+com\alticci\labseq\repositories\CacheRepoTest.class
+com\alticci\labseq\services\LabSeqServiceTest.class
