@@ -31,9 +31,9 @@ docker run -p <DESIRED_PORT>:8081 --name <CONTAINER_ALIAS> creito/labseq
 + Without Docker
 
 ```bash
-git https://github.com/Cleyton-S-Santos/alticci-LabSeq.git
+git clone https://github.com/Cleyton-S-Santos/alticci-LabSeq.git
 cd alticci-LabSeq
-mvn mvn clean package
+mvn clean package
 java -jar target/labseq-0.0.1-SNAPSHOT.jar
 ```
 
